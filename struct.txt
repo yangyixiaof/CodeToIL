@@ -1,0 +1,15 @@
+struct ExtU_euler321_I2B_12B_T {
+  real_T phi;
+  real_T theta;
+  real_T psi;
+  real_T Vi[3];
+  real_T Inport;
+};
+
+struct ExtY_euler321_I2B_12B_T {
+  real_T DCM321[9];
+  real_T Vb[3];
+  real_T outTheta[3];
+  real_T outGamma[3];
+  boolean_T outR1;
+};
